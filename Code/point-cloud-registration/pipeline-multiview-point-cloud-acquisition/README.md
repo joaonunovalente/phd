@@ -16,7 +16,9 @@ cd exhaustive-grid-search/
 
 ## Pipeline
 ``` bash
-cd /home/valente/Documents/vscode/PhD/Code/point-cloud-registration/pipeline-multiview-point-cloud-acquisition/code/
+cd /home/valente/Documents/vscode/PhD/Code/point-cloud-registration/pipeline-multiview-point-cloud-acquisition/code
+
+source .venv/bin/activate
 
 # Capture point clouds
 ./capture_point_clouds.py

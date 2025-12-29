@@ -62,9 +62,9 @@ def visualize_point_clouds(source_ply, transformed_ply, target_ply=None, voxel_s
 
 def main(test_number, point_cloud_1, point_cloud_2):
     # Construct paths
-    pickle_path = f'../exhaustive-grid-search/results/test{test_number}/depth_{point_cloud_1}_depth_{point_cloud_2}.pickle'
-    source_ply = f'../data/test{test_number}/color_{point_cloud_1}.ply'
-    target_ply = f'../data/test{test_number}/color_{point_cloud_2}.ply'
+    pickle_path = f'../exhaustive-grid-search/results/test{test_number}/depth_{point_cloud_1}_cropped_depth_{point_cloud_2}_cropped.pickle'
+    source_ply = f'../data/test{test_number}/depth_{point_cloud_1}_cropped.ply'
+    target_ply = f'../data/test{test_number}/depth_{point_cloud_2}_cropped.ply'
     
     # Create results folder structure
     results_folder = f"../results/test{test_number}/"
